@@ -73,7 +73,7 @@ If your environment doesn't support ES6 Promises, you can [polyfill](https://git
 
 ## Credits
 
-geoplugin is a simple wrapper for REST API provided by geoplugin.net. geoPlugin provides a free geolocation API in multiple different programming languages in a single API call. There is no software installation required, no API key and whether your programming language of choice be Javascript, PHP, XML, JSON, ASP, or CSV, geoPlugin has a way to simply and efficiently geo-localize your visitors.
+geoplugin is a simple wrapper for REST API provided by [geoplugin.net](https://geoplugin.net). geoPlugin provides a free geolocation API in multiple different programming languages in a single API call. There is no software installation required, no API key and whether your programming language of choice be Javascript, PHP, XML, JSON, ASP, or CSV, geoPlugin has a way to simply and efficiently geo-localize your visitors.
 
 ## License
 
