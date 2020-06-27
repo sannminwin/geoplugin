@@ -3,9 +3,11 @@
 
 ## Features
 
-- Get geolocation data from [http://www.geoplugin.net/](http://www.geoplugin.net/)
+- Get geolocation of visitor's browser
+- Get geolocation by IP
 - Supports the [Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) API
 - Automatic transforms for JSON data
+- Free geolocation data provided by [http://www.geoplugin.net/](http://www.geoplugin.net/)
 
 ## Browser Support
 
