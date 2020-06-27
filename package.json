@@ -1,0 +1,14 @@
+{
+  "name": "geoplugin",
+  "version": "1.0.0",
+  "description": "Geo plugin provided geolocation data of user's browser using services provided by http://www.geoplugin.net/  ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "geolocation"
+  ],
+  "author": "Sann Min Win",
+  "license": "ISC"
+}
