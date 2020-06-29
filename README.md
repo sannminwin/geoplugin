@@ -36,7 +36,7 @@ $ yarn add geoplugin
 
 
 ```js
-import {getGeo, getGeoById} from 'geoplugin';
+import {getGeo, getGeoByIp} from 'geoplugin';
 ```
 
 Getting geolocation of user's browser.
@@ -73,7 +73,12 @@ If your environment doesn't support ES6 Promises, you can [polyfill](https://git
 
 ## Credits
 
-geoplugin is a simple wrapper for REST API provided by [geoplugin.net](https://geoplugin.net). geoPlugin provides a free geolocation API in multiple different programming languages in a single API call. There is no software installation required, no API key and whether your programming language of choice be Javascript, PHP, XML, JSON, ASP, or CSV, geoPlugin has a way to simply and efficiently geo-localize your visitors.
+geoplugin is a simple wrapper for REST API provided by [geoplugin.com](https://geoplugin.com). geoPlugin provides a free geolocation API in multiple different programming languages in a single API call. There is no software installation required, no API key and whether your programming language of choice be Javascript, PHP, XML, JSON, ASP, or CSV, geoPlugin has a way to simply and efficiently geo-localize your visitors.
+
+[IP Geolocation](http://www.geoplugin.com/geolocation/) by [geoPlugin](http://www.geoplugin.com/)
+
+This product includes GeoLite data created by MaxMind, available from [http://www.maxmind.com](http://www.maxmind.com)
+
 
 ## License
 
