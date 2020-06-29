@@ -1,6 +1,6 @@
 {
   "name": "geoplugin",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Geo plugin provided geolocation data of user's browser using services provided by http://www.geoplugin.net/  ",
   "main": "index.js",
   "scripts": {
