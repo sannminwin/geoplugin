@@ -39,7 +39,7 @@ $ yarn add geoplugin
 import {getGeo, getGeoByIp} from 'geoplugin';
 ```
 
-Getting geolocation of user's browser.
+## Getting geolocation of user's browser.
 
 ```js
 import {getGeo} from 'geoplugin';
@@ -52,7 +52,18 @@ getGeo()
 
 ```
 
-Getting geolocation by an ip address.
+## Getting geolocation of user's browser with SSL
+```js
+import {getGeoWithSsl} from 'geoplugin';
+
+// Get geolocation of a user's browser.
+getGeowithSsl('yourSecretKey')
+  .then(response => console.log(response)); // handle success
+  .catch(error => console.log(error)); // handle error
+  .then(() => {  }); // always executed
+```
+
+## Getting geolocation by an ip address.
 
 ```js
 import {getGeoByIp} from 'geoplugin';
@@ -65,6 +76,17 @@ getGeoByIp('xx.xx.xx.xx')
 
 ```
 
+## Getting geolocation by an ip address with SSl Request
+
+```js
+import {getGeoByIpWithSsl} from 'geoplugin';
+
+// Get  geolocation by an ip address.
+getGeoByIpWithSsl('yourSecretKeyForSSl','xx.xx.xx.xx')
+  .then(response => console.log(response)); // handle success
+  .catch(error => console.log(error)); // handle error
+  .then(() => {  }); // always executed
+```
 ## Promises
 
 geoplugin depends on a native ES6 Promise implementation to be [supported](http://caniuse.com/promises).
