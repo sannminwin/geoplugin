@@ -2,7 +2,7 @@
 
 ## Example Response Object
 
-```json
+```javascript
 {
   request: '11.222.333.44',
   status: 200,
