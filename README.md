@@ -105,10 +105,10 @@ import {getGeoSSL, getGeoByIpSSL} from 'geoplugin';
 Getting geolocation of user's browser.
 
 ```js
-import {getGeo} from 'geoplugin';
+import {getGeoSSL} from 'geoplugin';
 
 // Get geolocation of a user's browser using premium service.
-getGeo('licenseKey')
+getGeoSSL('licenseKey')
   .then(response => console.log(response)) // handle success
   .catch(error => console.log(error)) // handle error
   .then(() => {  }); // always executed
@@ -118,10 +118,10 @@ getGeo('licenseKey')
 Getting geolocation by an ip address.
 
 ```js
-import {getGeoByIp} from 'geoplugin';
+import {getGeoByIpSSL} from 'geoplugin';
 
 // Get  geolocation by an ip address  using premium service.
-getGeoByIp('licenseKey','xx.xx.xx.xx')
+getGeoByIpSSL('licenseKey','xx.xx.xx.xx')
   .then(response => console.log(response)) // handle success
   .catch(error => console.log(error)) // handle error
   .then(() => {  }); // always executed

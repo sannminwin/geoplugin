@@ -110,9 +110,3 @@ const _getGeoObject = (data) => {
         timezone: data.geoplugin_timezone,
     };
 }
-
-
-getGeoByIp('68.174.201.64')
-  .then(response => console.log(response)) // handle success
-  .catch(error => console.log(error)) // handle error
-  .then(() => {  }); // always executed
