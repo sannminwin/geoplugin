@@ -1,36 +1,5 @@
 # GEOPLUGIN
 
-## Example Response Object
-
-```javascript
-{
-  request: '11.222.333.44',
-  status: 200,
-  delay: '2ms',
-  areaCode: '',
-  city: 'Manhattan',
-  continentCode: 'NA',
-  continentName: 'North America',
-  countryCode: 'US',
-  countryName: 'United States',
-  credit: "Some of the returned data includes GeoLite data created by MaxMind, available from <a href='http://www.maxmind.com'>http://www.maxmind.com</a>.",
-  currencyCode: 'USD',
-  currencyConverter: 1,
-  currencySymbol: '$',
-  currencySymbol_UTF8: '$',
-  dmaCode: '501',
-  euVATRate: false,
-  inEU: 0,
-  locationAccuracyRadius: '1',
-  latitude: '12.345',
-  longitude: '-67.890',
-  region: 'New York',
-  regionCode: 'NY',
-  regionName: 'New York',
-  timezone: 'America/New_York'
-}
-```
-
 ## Features
 
 - Get geolocation of visitor's browser
@@ -126,6 +95,37 @@ getGeoByIpSSL('licenseKey','xx.xx.xx.xx')
   .catch(error => console.log(error)) // handle error
   .then(() => {  }); // always executed
 
+```
+
+## Example Response Object
+
+```javascript
+{
+  request: '11.222.333.44',
+  status: 200,
+  delay: '2ms',
+  areaCode: '',
+  city: 'Manhattan',
+  continentCode: 'NA',
+  continentName: 'North America',
+  countryCode: 'US',
+  countryName: 'United States',
+  credit: "Some of the returned data includes GeoLite data created by MaxMind, available from <a href='http://www.maxmind.com'>http://www.maxmind.com</a>.",
+  currencyCode: 'USD',
+  currencyConverter: 1,
+  currencySymbol: '$',
+  currencySymbol_UTF8: '$',
+  dmaCode: '501',
+  euVATRate: false,
+  inEU: 0,
+  locationAccuracyRadius: '1',
+  latitude: '12.345',
+  longitude: '-67.890',
+  region: 'New York',
+  regionCode: 'NY',
+  regionName: 'New York',
+  timezone: 'America/New_York'
+}
 ```
 
 ## Promises
