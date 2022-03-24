@@ -1,8 +1,9 @@
 {
   "name": "geoplugin",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Geo plugin provided geolocation data of user's browser using services provided by http://www.geoplugin.net/  ",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -14,5 +15,8 @@
     "url": "https://github.com/sannminwin/geoplugin.git"
   },
   "author": "Sann Min Win",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "cross-fetch": "^3.1.5"
+  }
 }
